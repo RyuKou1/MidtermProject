@@ -4,7 +4,7 @@ public abstract class Character implements Creature{
     public abstract void attack(Character target);
 
     public final boolean isAlive(){
-        return hp > 0;
+        return this.hp > 0;
     }
 
     public void showStatus(){
