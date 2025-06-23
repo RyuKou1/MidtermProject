@@ -18,7 +18,7 @@ public class GameMaster {
         System.out.println("--- 戦闘終了 ---\n最終ステータス:");
         h.showStatus();
         s.showStatus();
-        h.isAlive();
-        s.isAlive();
+        System.out.println("アベルは生きている: " + h.isAlive());
+        System.out.println("スライムAは生きている: " + s.isAlive());
     }
 }
