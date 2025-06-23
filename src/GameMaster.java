@@ -24,5 +24,6 @@ public class GameMaster {
         Character partyMember = abel;
         partyMember.hp -= 50;
         System.out.println("partyMember経由でHPを減らした後：");
+        abel.showStatus();
     }
 }
